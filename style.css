@@ -32,8 +32,3 @@ p{
     padding-left:0.5%;
     float: right;
 }
-
-@font-face {
-    font-family: "Louis Cypher";
-    src: url("assets/fonts/Louis\ Cypher.ttf");
-}
