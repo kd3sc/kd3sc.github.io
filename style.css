@@ -4,6 +4,7 @@ body{
     font-family: "Courier New";
     background-image: url("assets/bg_pattern.png");
     background-size: 0.5em;
+    font-size: 1vw;
 }
 
 h1{
@@ -21,14 +22,14 @@ p{
 
 .left-box{
     background-color: rgb(50, 50, 50);
-    width: 10%;
+    width: 15%;
     float: left;
     padding: 0.5%;
-    text-align:justify
+    text-align:justify;
 }
 
 .right-box{
-    width: 88.5%;
+    width: 83.5%;
     padding-left:0.5%;
     float: right;
 }
