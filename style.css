@@ -1,13 +1,14 @@
 body{
     background-color: rgb(30, 30, 30);
     color: white;
-    font-family: "Courier New";
+    font-family: "Leelawadee UI";
     background-image: url("assets/bg_pattern.png");
     background-size: 0.5em;
+    text-align: center;
 }
 
 h1{
-    font-family: "Courier New";
+    font-family: "Leelawadee UI";
     color: white;
     font-weight: light;
     padding: 0;
@@ -17,18 +18,4 @@ h1{
 p{
     font-weight: 100;
     margin: 0;
-}
-
-.left-box{
-    background-color: rgb(50, 50, 50);
-    width: 10%;
-    float: left;
-    padding: 0.5%;
-    text-align:justify
-}
-
-.right-box{
-    width: 88.5%;
-    padding-left:0.5%;
-    float: right;
 }
