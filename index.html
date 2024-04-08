@@ -32,10 +32,11 @@
     
     <h4>Unexpected behaviour:</h4>
     <img src="/assets/images/devConsoleError.png" alt="An image of an error in the Developer Console" width="700px">
-    <img src="/assets/images/devErrorReason.png" alt="" width="500px">
+    <br>
+    <img src="/assets/images/devErrorReason.png" alt="An image of the cause of the error" width="500px">
     
     <h4>Expected behaviour (upon fixing):</h4>
-    <img src="/assets/images/daveTalking.png" alt="" width="200px">
+    <img src="/assets/images/daveTalking.png" alt="An image of dave the NPC talking." width="200px">
 
     <br>
     <br>
@@ -44,13 +45,24 @@
 
     <h3>Problem Solving and Community Support</h3>
     <h4>Situation</h4>
+    <p>The OP wanted a part to detect only an NPC instead of a player but could not figure out how to get it to work.</p>
     <h4>Task</h4>
+    <p>Make the part detect the OP's NPC and not a player.</p>
     <h4>Action</h4>
+    <p>I asked multiple questions to OP on whether he had some things missing (see posts 20+). He told me that those were correct, so I asked some more things to see if they were the issues and those were also correct.</p>
+    <br>
+    <p>I then asked if it was the NPC that was the problem - so I told him to import a basic rig and see if that rig gets detected by the part; it did. The OP then wanted to know what was wrong with his NPC, so I investigated.</p>
+    <br>
+    <p>I told OP it was because the <b>HumanoidRootPart</b> was anchored. Once unanchored, the OP's issue was resolved and I was given a solution.</p>
     <h4>Result</h4>
+    <p>OP's NPC was detected by the part, and any players touching the part would be ignored.</p>
     <h4>Link to Roblox devforum post:</h4>
     <p>https://devforum.roblox.com/t/parttouched-dedect-only-npc-isntead-player-solved/2908918/37</p>
     <br>
     <hr>
-    <h3>Roblox Studio Code Examples</h3>
+    <h3>Roblox Studio Code Samples</h3>
+    <p>Here are some code samples from Roblox Studio.</p>
+    <br><br>
+    <img src="assets/images/codeSample1.png" alt="An image of some code used to handle giving smacks to players in Hand Wars🖐">
 </body>
 </html>
